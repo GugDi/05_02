@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-int main() {};
 class TLogElement {
 public:
     bool FIn1, FIn2;
@@ -19,3 +18,4 @@ public:
     TAnd() { FRes = FIn1 && FIn2; }
 };
 
+int main() {};
