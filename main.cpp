@@ -28,6 +28,11 @@ int main() {
 
     for (A = 0; A <= 1; A++) {
         elAnd.FIn1 = A;
+        for (B = 0; B <= 1; B++) {
+            elAnd.FIn2 = B;
+            elNot.FIn1 = elAnd.FRes;
+            cout << " " << A << " " << B << " " << elNot.FRes << endl;
+        }
     }
 
 };
