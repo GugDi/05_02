@@ -22,4 +22,8 @@ int main() {
     TNot elNot;
     TAnd elAnd;
     int A, B;
+
+    cout << " A B !(A&B)" << endl;
+    cout << "-------------" << endl
+
 };
