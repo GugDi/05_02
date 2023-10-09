@@ -14,4 +14,8 @@ public:
     TNot() { FRes = !FIn1; }
 };
 
-class TAnd : public TLogElement {};
+class TAnd : public TLogElement {
+public:
+    TAnd() { FRes = FIn1 && FIn2; }
+};
+
