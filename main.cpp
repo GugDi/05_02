@@ -18,4 +18,8 @@ public:
     TAnd() { FRes = FIn1 && FIn2; }
 };
 
-int main() {};
+int main() {
+    TNot elNot;
+    TAnd elAnd;
+    int A, B;
+};
