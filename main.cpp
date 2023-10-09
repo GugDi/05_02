@@ -34,5 +34,5 @@ int main() {
             cout << " " << A << " " << B << " " << elNot.FRes << endl;
         }
     }
-
+    return 0;
 };
