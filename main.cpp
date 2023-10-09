@@ -9,5 +9,9 @@ public:
 
     TLogElement() {}
 };
-class TNot : public TLogElement {};
+class TNot : public TLogElement {
+public:
+    TNot() { FRes = !FIn1; }
+};
+
 class TAnd : public TLogElement {};
